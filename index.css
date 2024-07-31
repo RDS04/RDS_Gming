@@ -1,0 +1,227 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    /* background: url(pisang.jpg) ; */
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(to bottom right, rgb(10, 140, 247), rgb(212, 212, 148));
+}
+
+.container {
+    background: url('walpaper linktree.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+}
+
+.profile-image video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.profile-info h3 {
+    font-size: 24px;
+    /* font-weight: bold; */
+    margin-bottom: 10px;
+    background-color: rgba(187, 180, 166, 0.973);
+    color: #8100d6;
+    margin-left: 70px;
+    border: 1px solid;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 60%;
+    /* Warna teks judul */
+}
+
+.profile-info p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #e2d5d5;
+    /* Warna teks paragraf */
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.button-subscribe:hover {
+    background-color: #0056b3;
+}
+.button-subscribe:active {
+    font-style: italic;
+ }
+.button-subscribe  {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button-share {
+    background-color:  #007bff;
+    color: #fff8f8;
+    border: 1px solid #b9c5d3;
+    padding: 5px 5px;
+    display: flex;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Untuk elemen dengan class .links */
+.links {
+    margin-bottom: 20px;
+    max-height: 350px; /* Batasi tinggi area link */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    padding: 0;
+    scrollbar-width: thin; /* Untuk Firefox */
+    scrollbar-color: transparent transparent; /* Untuk Firefox */
+}
+
+/* Custom scrollbar untuk WebKit (Chrome, Safari) */
+.links::-webkit-scrollbar {
+    width: 8px;
+}
+
+.links::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.links::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 10px;
+    border: 3px solid transparent;
+}
+
+/* Tambahkan efek hover jika diperlukan */
+.links::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.links h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.link-fb {
+    display: flex;
+    /* Mengatur elemen flex untuk gambar dan teks */
+    align-items: center;
+    box-shadow: 5px 5px 5px rgb(45, 126, 45);
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.link-button {
+    display: flex;
+    /* Mengatur elemen flex untuk gambar dan teks */
+    align-items: center;
+    box-shadow: 5px 5px 5px rgb(45, 126, 45);
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.link-fb img {
+    height: 50px;
+    /* Menetapkan ukuran gambar */
+    border-radius: 50%;
+    margin-right: 10px;
+    /* Menambahkan jarak antara gambar dan teks */
+}
+
+.link-button img {
+    height: 50px;
+    /* Menetapkan ukuran gambar */
+    margin-right: 10px;
+    /* Menambahkan jarak antara gambar dan teks */
+}
+
+.link-fb:active {
+    padding: 9px;
+    font-style: italic;
+}
+
+.link-button:active {
+    font-style: italic;
+    padding: 9px;
+}
+
+.link-tiktok:hover {
+    background-color: #0056b3;
+}
+.link-fb:hover {
+    background-color: #0056b3;
+
+}
+
+.link-button:hover {
+    background-color: #0056b3;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    color: #333;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #007bff;
+}
+
+.linktree {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
